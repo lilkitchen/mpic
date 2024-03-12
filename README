@@ -1,0 +1,31 @@
+MPic
+====
+
+MPic is an utility for making pictures in minecraft maps.
+
+Dependencies
+============
+
+SDL2
+SDL2_image
+
+Usage
+=====
+
+mpic [picture]
+
+Default file is "picture.jpg" if picture argument is omitted
+
+Interface:
+	- LMB: move frame
+	- RMB: scale frame
+
+	- [: decrease dithering
+	- ]: increase dithering
+
+	- r/R: amplify/reduce red channel
+	- g/G amplify/reduce green channel
+	- b/B: amplify/reduce blue channel
+
+	- Backspace: reset
+	- Enter: export
